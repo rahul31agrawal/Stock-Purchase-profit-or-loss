@@ -1,8 +1,33 @@
 body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 400px;
+    margin: 5% auto;
+    font-family: sans-serif;
+    background-color: #ff9933;
 }
 
 label {
     display: block;
     padding-bottom: 1rem;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+label{
+    text-align: left;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: #E7FFFC;
+    font-size: 1rem;
 }
