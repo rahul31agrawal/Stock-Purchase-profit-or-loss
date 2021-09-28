@@ -19,6 +19,7 @@ h1 {
 
 label{
     text-align: left;
+    font-weight: bold;
 }
 
 button {
@@ -41,4 +42,5 @@ input {
 
 #output-box{
     padding-top: 1rem;
+    font-weight: bold;
 }
