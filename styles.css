@@ -31,3 +31,9 @@ button {
     color: #E7FFFC;
     font-size: 1rem;
 }
+
+input {
+    height: 20px;
+    width: 150px;
+    
+}
