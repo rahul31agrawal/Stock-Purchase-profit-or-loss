@@ -11,13 +11,13 @@
 <body>
     <h1>Stocks Profit & loss calculator 🤑💰</h1>
     <main>
-        <label for="initial-price">Initial price <input placeholder="Enter Initial price here" type="number" id = "initial-price"></label>
+        <label for="initial-price">Initial price <input placeholder="Enter Initial price here" type="number" id = "initial-price" onkeypress="return event.charCode >= 48" min="1" ></label>
 
         <label for="stocks-quantity">Number of stocks
         <input type="number" placeholder = "Enter the number of stocks bought" id = "stocks-quantity" onkeypress="return event.charCode >= 48" min="1" ></label>
 
         <label for="current-price">Current Price
-        <input type="number" placeholder="Enter the current price of the stocks" id = "current-price"></label>
+        <input type="number" placeholder="Enter the current price of the stocks" id = "current-price" onkeypress="return event.charCode >= 48" min="1" ></label>
 
         <button id = "submit-btn">Tell Me!!</button>
 
